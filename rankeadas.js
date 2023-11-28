@@ -1,14 +1,14 @@
 let vitorias = 101
 let derrotas = 10
 let Saldo = calcularSaldo(vitorias,derrotas)
-let rank = cacularRanking(Saldo)
+let rank = calcularRanking(Saldo)
 
 
 function calcularSaldo (win,lose) { 
     saldoVitorias = win - lose
     return saldoVitorias
 }
-function cacularRanking(pdl) { 
+function calcularRanking(pdl) { 
     if (pdl<=10) { 
         elo="Ferro"
     } else if (pdl<=20) { 
